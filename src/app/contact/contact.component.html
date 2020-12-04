@@ -1,0 +1,78 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <br>
+            <p style="text-align: center;color:#090e15;font-family: -apple-system,BlinkMacSystemFont;font-size: 30px;"><b>Contact US</b></p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <br>
+            <!-- (ngSubmit)="onmail()" -->
+            <!-- [formGroup]="contactForm" -->
+       <form >
+           <label>Name :-</label>
+           <input type="text"  class="form-control" formControlName="name" >
+           <br>
+           <label>Email :-</label>
+           <input type="email" name="" class="form-control" formControlName="email" >
+           <br>
+           <label>Mobile Number :-</label>
+           <input type="text" name="" class="form-control" required>
+           <br>
+           <label>Message :-</label>
+           <textarea  name="" class="form-control" required>
+           </textarea>
+           <br>
+           <div style="text-align: center;">
+           <button  class="btn btn-secondary" style="background-color:  #146cda;color:#FFF;border:  #146cda;width:70%;">Submit</button>
+          </div>
+        </form>
+        </div>
+        <style>
+          @media(min-width:768px)
+          {
+            .jkdgd
+            {
+              height:350px;width:490px;
+            }
+          }
+          @media(max-width:992px)
+          {
+            .jkdgd
+            {
+              height:250px;width:300px;          }
+          }
+        </style>
+        <div class="col-lg-6">
+            <br> <br>
+            <div class="card">
+                <div class="card-body">
+                    <img src="assets/images/7 (1).jpg" class="jkdgd">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+<br>
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.120212764419!2d77.36765251446462!3d28.566152693834276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f2fa697fad%3A0x26e338c34c82ba35!2sShiv%20Mandir%20Barola%20Sec%2049!5e0!3m2!1sen!2sin!4v1599210740927!5m2!1sen!2sin" style="width:100%;height:150%"></iframe>
+    </div>
+</div>
+
+</div>
+<br>
+
+<br><br><br><br>
+<app-footer></app-footer>
